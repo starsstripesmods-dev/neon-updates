@@ -28,3 +28,15 @@ Never upload archives, source, server.cfg, .env, API tokens or database exports.
 
 This feed reports update availability. It does not download or install code,
 grant access to private packages, or replace a release backup.
+
+## Update Notifications
+
+Public commits and release events from this repository are connected to the
+community's GitHub updates channel in Discord. Only publish reviewed release
+notes and metadata here; do not include private source or production logs.
+
+Changes made only on the game server are not GitHub events. Add their reviewed
+public release notes here when they are ready to be announced.
+
+The Discord webhook credential is held in repository settings, not in these
+files. Never commit, paste into release notes, or share that credential.
